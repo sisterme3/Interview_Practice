@@ -75,20 +75,20 @@
 
 ### Tips for Optimizing and Solving Problems
 
-***Look for BUD [B: Bottlenecks U: Unneccesary Work D: Duplicated Work]***
+* ***Look for BUD [B: Bottlenecks U: Unneccesary Work D: Duplicated Work]***
 
-***Do It Yourself [Run through the problem in your own way, using a real example. Most of the time the way you do it is an optimal solution!! Be aware of any optimal solutions you added without realizing it]***
+* ***Do It Yourself [Run through the problem in your own way, using a real example. Most of the time the way you do it is an optimal solution!! Be aware of any optimal solutions you added without realizing it]***
 
-***Simplify and Generalize [Tweak data types with the problem and figure out a new solution]***
+* ***Simplify and Generalize [Tweak data types with the problem and figure out a new solution]***
 
-***Base Case and Build [Solve the Base Case and build to more complex cases using the solutions to the easier ones]***
+* ***Base Case and Build [Solve the Base Case and build to more complex cases using the solutions to the easier ones]***
 
-***Data Structure BrainStorm [Run through a list of data structure and decide which approach is easiest]***
+* ***Data Structure BrainStorm [Run through a list of data structure and decide which approach is easiest]***
 
-***Check BCR (Best Conceivable Runtime: Not necessarily achieveable, you just can't do better than that): It might give you a hint on how to solve a problem. Also, doing work equal to or less than the BCR is a freebie, it won't add to your runtime complexity.***
+* ***Check BCR (Best Conceivable Runtime: Not necessarily achieveable, you just can't do better than that): It might give you a hint on how to solve a problem. Also, doing work equal to or less than the BCR is a freebie, it won't add to your runtime complexity.***
 
 
-***Remember interviews are supposed to be challenging. Don't be afraid of a hard problem, just breathe and get to work!***
+* ***Remember interviews are supposed to be challenging. Don't be afraid of a hard problem, just breathe and get to work!***
 
 
 # Common Types of Problems
