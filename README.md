@@ -7,8 +7,6 @@
 
 
 
-
-
 # Common Types of Problems
 
 
@@ -50,17 +48,17 @@
 ## Big O Notation for particular problems 
 
 
-## Iteration through a String: O(NlogN)
+### Iteration through a String: O(NlogN)
 
-## A for loop(int i=0; i<n(or any number); i++) with NO division within the header: O(N)
+### A for loop(int i=0; i<n(or any number); i++) with NO division within the header: O(N)
 
-## A nested for loop with NO division within the header: O(N^n) n = How many loops there are
+### A nested for loop with NO division within the header: O(N^n) n = How many loops there are
 
-## A for loop that contains division (int i=0; i<n/2; i++): O(logN)
+### A for loop that contains division (int i=0; i<n/2; i++): O(logN)
 
-## A nested for loop that contains multiple division: O(logN*the other for loops)
+### A nested for loop that contains multiple division:  O(logN* O(of the other loops))
 
-# 
+### 
 
 
 
