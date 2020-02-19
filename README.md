@@ -51,6 +51,19 @@
 
 ***Remember that you have a short amount of code to show that you are a great developer. Everything counts.***
 
+***Good Code Properties***
+* **Correct:** The code should work on all expected and unexpected inputs
+* **Efficent:** The code should operate the in the best time and space complexity, including the asympotoic (Big O) efficiency and the practical real life efficiency
+* **Simple:** The code should be as concise as possible. It should be quick to write.
+* **Readable:** A different developer should be able to read your code, should have comments and implements things in an easy way.
+* **Maintainable:** Code should be reasonably adaptable to changes during the life curcle of a product and should be maintainable by another dev
+
+* **Use Data Structures:** You can create your own class(data structure) within a problem to make it easier to handle a messy set of data
+* **Appropriate Code Reuse** You can create reusable methods to clean up your solution to a problem
+* **Modular** Separate large chunks of code into their own methods to make the code more maintainable, readable, and testable
+* **Flexible and Robust** You can write for a more general case than a specific case
+* **Error Checking** Make sure you validate what the input is
+
 ***Test:*** 
 * **Conceptual Test.** Walk through your code like you would for a detailed code review. Does it do what its supposed to do
 * **Unusual or non-standard code** Make sure you check weird looking things, they are usually where the little errors lie
@@ -72,21 +85,10 @@
 
 ***Data Structure BrainStorm [Run through a list of data structure and decide which approach is easiest]***
 
-***Check BCR (Best Conceivable Runtime): It might give you a hint on how to solve a problem***
-
-### Understanding the problem
+***Check BCR (Best Conceivable Runtime: Not necessarily achieveable, you just can't do better than that): It might give you a hint on how to solve a problem. Also, doing work equal to or less than the BCR is a freebie, it won't add to your runtime complexity.***
 
 
-### Time Management 
-
-
-###  Methods of Practice 
-
-
-###
-
-
-
+***Remember interviews are supposed to be challenging. Don't be afraid of a hard problem, just breathe and get to work!***
 
 
 # Common Types of Problems
@@ -141,6 +143,8 @@
 
 
 ## Big O Time and Space
+
+***Always derive, don't guess. Big O is not a multiple choice question***
 
 
 
