@@ -1,5 +1,51 @@
 # Coding Interview Practice
 
+### Steps for Problem Solving
+
+***Listen:*** Pay close attention to any information in the problem description. You need it for an optimal algorithm. Pull out or write down any unique information. ****DON'T LEAVE OUT KEY DETAILS WHILE CODING: MAKE A CHECKLIST**
+
+***Example:*** Draw an example of the problem for better understanding. Draw it on a whiteboard/paper. Make sure that the example is large enough, specific enough, and not a special case. 
+
+***Brute Force:*** **STATE** the brute force algorithm and explain the space/ time complexity, let your interviewer know that you understand the easiest solution. Don't worry about developing an efficient algorithm yet. State a naive algorithm and its runtime, then optimize from there. Don't code yet!
+
+***Optimize:*** Walk through the brute force with BUD optimization or try some of these ideas:
+* Look for any unused info. You usually need all the info in a problem. How can you use the new information?
+
+* Solve it manually on an example, then reverse engineer thought process. How did you solve it? Use a new example to see a new pattern in the problem
+
+* Solve it "incorrectly" and then think about why the algorithm fails/ Can you fix those issues? Find an inefficient solution to move to an efficient solution
+
+* Make a time vs. space tradeoff. Figure out the Big O and see if you can reduce it to O(N) or O(Log N)
+
+* Figure out if you do something before the main function to have better results (sort, reorganizing,etc.)
+
+* Use a Hash table. They are used alot within interview questions. 
+
+* Think about the best run time
+
+***BUD Optimization***
+
+***B: Check for Bottlenecks (large wait times, large array accesses)***
+
+***U: Unnecessary Work (Are you doing things are unnecessary for the sake of the problem)***
+
+***D: Duplicated Work (Do you have multiple things doing the same thing)***
+
+***Walk Through:*** Now that you have an optimal solution, **walk through your approach in detail.** Make sure you understand each detail before you start coding. (Keep talking to your interviewer) Get as close to perfect before coding as possible. Know your variables and when they change. 
+
+*Write pseudocode carefully. Use it for var declarations and general if statements; however, for a loop. Just write the loop out in the language. Don't write sloppy code at any moment.*
+
+***Implement:*** Write beautiful code. Modularize your code from the beginning and refactor to clean up anything that isn't beautiful. Start coding in the far top left corner of the whiteboard, avoid line creeping (write in a straight line), it makes your code look sloppy.
+
+***Remember that you have a short amount of code to show that you are a great developer. Everything counts. ***
+
+***Test:*** 
+* **Conceptual Test.** Walk through your code like you would for a detailed code review.
+* **Unusual or non-standard code**
+* **Hot Spots** Like arithmetic and null nodes
+* **Small test cases** It's much faster than a big test case and just as effective
+* **Special cases and Edge Cases**
+**Correct bugs carefully!**
 
 ### Understanding the problem
 
@@ -51,6 +97,27 @@
 
 # Theory based Knowledge
 
+
+
+## Bit Manipulation
+
+
+
+
+## Memory(Stack vs. Heap)
+
+
+
+## Recursion
+
+
+
+
+## Big O Time and Space
+
+
+
+
 ## Big O Notation for particular problems 
 
 * Iterating through a String: **O(NlogN)**
@@ -69,7 +136,7 @@
 
 ## Basic Data Structures Descriptions and Typical Big O Analysis for their methods
 
-###  Arraylist <>
+### Arraylists/ Vectors <>
 ### Primitive Array []
 ### Binary Trees
 ### Heaps
@@ -77,6 +144,37 @@
 ### Linked List
 ### Doubly Linked Lists
 ### Circular Linked Lists
+### Hash Tables
+### Tries
+### Graphs
+### Hash Maps
+### Hash Set
+
+
+## Sorting Algorithms and Big O for each
+
+### Insertion Sort
+
+### Selection Sort
+
+### Bubble Sort
+
+### Quick Sort
+
+### Merge Sort
+
+
+## Searching Algorithms and Big O for each
+
+### Breadth-First Search
+
+### Depth- First Search
+
+### Binary Search
+
+### Linear Search
+
+
 
 
 
