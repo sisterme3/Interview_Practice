@@ -25,7 +25,7 @@
 
 ***BUD Optimization***
 
-***B: Check for Bottlenecks (large wait times, large array accesses)***
+***B: Check for Bottlenecks (large wait times, large array accesses, one-time work, a chunk of work done repeatedly)***
 
 ***U: Unnecessary Work (Are you doing things are unnecessary for the sake of the problem)***
 
@@ -58,6 +58,21 @@
 * **Small test cases** It's much faster than a big test case and just as effective, use tiny array or tiny strings to test things.
 * **Special cases and Edge Cases** Test it against null or single element values and the extreme cases.
 **Correct bugs carefully!**
+
+
+### Tips for Optimizing and Solving Problems
+
+***Look for BUD [B: Bottlenecks U: Unneccesary Work D: Duplicated Work]***
+
+***Do It Yourself [Run through the problem in your own way, using a real example. Most of the time the way you do it is an optimal solution!! Be aware of any optimal solutions you added without realizing it]***
+
+***Simplify and Generalize [Tweak data types with the problem and figure out a new solution]***
+
+***Base Case and Build [Solve the Base Case and build to more complex cases using the solutions to the easier ones]***
+
+***Data Structure BrainStorm [Run through a list of data structure and decide which approach is easiest]***
+
+***Check BCR (Best Conceivable Runtime): It might give you a hint on how to solve a problem***
 
 ### Understanding the problem
 
@@ -161,6 +176,7 @@
 ### Graphs
 ### Hash Maps
 ### Hash Set
+### Heaps
 
 
 ## Sorting Algorithms and Big O for each
