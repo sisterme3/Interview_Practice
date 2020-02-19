@@ -37,14 +37,26 @@
 
 ***Implement:*** Write beautiful code. Modularize your code from the beginning and refactor to clean up anything that isn't beautiful. Start coding in the far top left corner of the whiteboard, avoid line creeping (write in a straight line), it makes your code look sloppy.
 
-***Remember that you have a short amount of code to show that you are a great developer. Everything counts. ***
+### **Beautiful Code looks like this**
+
+* **Modularized Code: Use methods to break down your algorithm. if there is an odd initialization(like creating a matrix or array initialization) pretend you already have a function for that and keep it moving.**
+
+* **Error Checks: Just make a TODO on the side of error checking that you could do later if you had more time**
+
+* **Use other classes/structs where appropriate: If there is alot of data being loaded in a certain way(pair), you could pretend that there is a class that handles it and fill in the details later.**
+
+* **Write good variable names. Not too long, not too short. Make it clear for what they are used for**
+
+***If you see something that you can refactor later on, then explain this to the interviewer and make a decision if it is worht fixing***
+
+***Remember that you have a short amount of code to show that you are a great developer. Everything counts.***
 
 ***Test:*** 
-* **Conceptual Test.** Walk through your code like you would for a detailed code review.
-* **Unusual or non-standard code**
-* **Hot Spots** Like arithmetic and null nodes
-* **Small test cases** It's much faster than a big test case and just as effective
-* **Special cases and Edge Cases**
+* **Conceptual Test.** Walk through your code like you would for a detailed code review. Does it do what its supposed to do
+* **Unusual or non-standard code** Make sure you check weird looking things, they are usually where the little errors lie
+* **Hot Spots** Like arithmetic and null nodes, Investigate things known to cause problems (Recursion base cases, Integer division, null nodes in binary trees, The start and end of iteration throught a linked list)
+* **Small test cases** It's much faster than a big test case and just as effective, use tiny array or tiny strings to test things.
+* **Special cases and Edge Cases** Test it against null or single element values and the extreme cases.
 **Correct bugs carefully!**
 
 ### Understanding the problem
